@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "robot-speed": {
+      "url": "https://www.robot-speed.com/api/mcp",
+      "headers": {
+        "X-API-Key": "YOUR_API_KEY"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+name: robot-speed
+displayName: Robot Speed
+description: AI-powered SEO content engine — manage articles, track keywords, monitor AI bot visits, and generate client reports from any AI assistant.
+icon: https://www.robot-speed.com/logo.png
+vendor: Robot Speed
+sourceUrl: https://github.com/robot-speed/mcp
+homepage: https://www.robot-speed.com
+license: Proprietary
+categories:
+  - seo
+  - content
+  - marketing
+  - analytics
+transport:
+  type: http
+  url: https://www.robot-speed.com/api/mcp
+auth:
+  type: api-key
+  header: X-API-Key
+  instructions: "Get your API key from robot-speed.com/dashboard → Settings → API Keys"
+tools: 27
