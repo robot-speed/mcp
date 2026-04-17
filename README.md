@@ -6,7 +6,7 @@
   <p>
     <a href="https://github.com/robot-speed/mcp/stargazers"><img src="https://img.shields.io/github/stars/robot-speed/mcp?style=flat&color=22c55e" alt="Stars" /></a>
     <a href="#available-tools-27"><img src="https://img.shields.io/badge/tools-27-blue" alt="27 Tools" /></a>
-    <a href="#free-seo-tools-no-account-needed"><img src="https://img.shields.io/badge/free_tools-90+-orange" alt="90+ Free Tools" /></a>
+    <a href="#free-seo-tools-no-account-needed"><img src="https://img.shields.io/badge/free_tools-12-orange" alt="12 Free Tools" /></a>
     <a href="#works-with"><img src="https://img.shields.io/badge/works_with-Claude_%7C_Cursor_%7C_Windsurf_%7C_VS_Code_%7C_ChatGPT-8A2BE2" alt="Cross-platform" /></a>
     <a href="https://discord.gg/X3qTR66sm2"><img src="https://img.shields.io/discord/1234567890?label=Discord&color=5865F2" alt="Discord" /></a>
     <a href="#license"><img src="https://img.shields.io/badge/license-Proprietary-lightgrey" alt="License" /></a>
@@ -26,8 +26,10 @@
 
 ---
 
-**27 pro tools. 90+ free SEO tools. 8 audit categories. White-label reports.**
-**One MCP server. Works everywhere.**
+**12 free SEO tools. No account needed. Just add the URL to your AI assistant.**
+**27 pro tools for content management, GSC traffic, and white-label reports.**
+
+> **What's MCP?** Model Context Protocol lets your AI assistant (Claude, Cursor, Copilot) use external tools. Add one URL to your config, and your AI can audit websites, generate keywords, and manage SEO — all through conversation.
 
 ```
 You:    "Audit the SEO of https://example.com"
@@ -70,7 +72,7 @@ Claude: Done. Here's your shareable report:
 
 ## Quick Start (30 seconds)
 
-### Option A: OAuth (recommended — zero config)
+Add this to your Claude Desktop config — **no account needed** for free tools:
 
 ```json
 {
@@ -82,9 +84,11 @@ Claude: Done. Here's your shareable report:
 }
 ```
 
-Claude opens a browser window. You log in. Done.
+That's it. 12 free SEO tools are immediately available. Say *"audit the SEO of https://mysite.com"* and get a full report.
 
-### Option B: API Key
+**Want pro features?** (content management, GSC traffic, AI bot tracking, client reports) Create an account at [robot-speed.com](https://www.robot-speed.com) and add your API key:
+
+### Option B: API Key (for pro tools)
 
 ```json
 {
@@ -166,6 +170,7 @@ Robot Speed powers **90+ free SEO tools**. The best ones are available via MCP:
 
 | Tool | What it does | Status |
 |------|-------------|--------|
+| `seo_plan` | **Start here** — Full audit + prioritized action plan with effort/impact estimates | ✅ Live |
 | `seo_audit` | Full 8-category audit: Foundation, Crawl & Index, Content SEO, Metadata, Performance, Media & UX, Architecture, GEO/AEO | ✅ Live |
 | `seo_score` | SEO score (0-100) for any URL | ✅ Live |
 | `meta_tag_analyzer` | Title, description, OG tags, Twitter cards analysis | ✅ Live |
