@@ -12,12 +12,6 @@ else
   git clone --depth 1 https://github.com/robot-speed/mcp.git "$SKILL_DIR"
 fi
 
-echo ""
-echo "✓ Robot Speed installed!"
-echo ""
-echo "Available commands:"
-echo "  /robot-speed audit <url>    — Full SEO audit (free)"
-echo "  /robot-speed score <url>    — Quick SEO score (free)"
-echo "  /robot-speed keywords <topic> — Keyword suggestions (free)"
-echo ""
-echo "Try it: /robot-speed audit https://example.com"
+# Run setup
+chmod +x "$SKILL_DIR/setup" "$SKILL_DIR/bin/update-check" 2>/dev/null || true
+"$SKILL_DIR/setup"

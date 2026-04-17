@@ -3,6 +3,17 @@ name: robot-speed
 description: "SEO audit, score, and keyword tools powered by Robot Speed. Free tools work without an account."
 ---
 
+## Preamble (run first)
+
+```bash
+_UPD=$(~/.claude/skills/robot-speed/bin/update-check 2>/dev/null || true)
+[ -n "$_UPD" ] && echo "$_UPD" || true
+VERSION=$(cat ~/.claude/skills/robot-speed/VERSION 2>/dev/null || echo "unknown")
+echo "Robot Speed MCP v$VERSION"
+```
+
+If output shows `UPGRADE_AVAILABLE <old> <new>`: Tell the user "Robot Speed MCP update available (v{old} → v{new}). Run `cd ~/.claude/skills/robot-speed && git pull --ff-only && ./setup` to update."
+
 # Robot Speed SEO Tools
 
 This skill connects Claude Code to Robot Speed's MCP server for SEO analysis.

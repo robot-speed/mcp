@@ -1,0 +1,27 @@
+#!/bin/bash
+# Robot Speed MCP — Setup & Update
+set -e
+
+SKILL_DIR="$(cd "$(dirname "$0")" && pwd)"
+VERSION=$(cat "$SKILL_DIR/VERSION" 2>/dev/null || echo "unknown")
+
+echo "Robot Speed MCP v$VERSION"
+echo ""
+
+# Check for updates
+REMOTE_VERSION=$(curl -sf "https://raw.githubusercontent.com/robot-speed/mcp/main/VERSION" 2>/dev/null || echo "")
+if [ -n "$REMOTE_VERSION" ] && [ "$REMOTE_VERSION" != "$VERSION" ]; then
+  echo "Update available: v$VERSION → v$REMOTE_VERSION"
+  echo "Run: cd $SKILL_DIR && git pull --ff-only"
+  echo ""
+fi
+
+echo "✓ Robot Speed skill ready."
+echo ""
+echo "Free tools (no account needed):"
+echo "  /robot-speed audit <url>    — Full 8-category SEO audit"
+echo "  /robot-speed score <url>    — Quick SEO score (0-100)"
+echo "  /robot-speed keywords <topic> — Keyword suggestions"
+echo ""
+echo "MCP endpoint: https://www.robot-speed.com/api/mcp"
+echo "Dashboard: https://www.robot-speed.com/dashboard"

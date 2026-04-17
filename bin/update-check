@@ -1,0 +1,8 @@
+#!/bin/bash
+# Silent update check — outputs "UPGRADE_AVAILABLE old new" or nothing
+SKILL_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+VERSION=$(cat "$SKILL_DIR/VERSION" 2>/dev/null || echo "0.0.0")
+REMOTE=$(curl -sf --max-time 3 "https://raw.githubusercontent.com/robot-speed/mcp/main/VERSION" 2>/dev/null || echo "")
+if [ -n "$REMOTE" ] && [ "$REMOTE" != "$VERSION" ]; then
+  echo "UPGRADE_AVAILABLE $VERSION $REMOTE"
+fi
