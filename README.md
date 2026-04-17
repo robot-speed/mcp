@@ -160,22 +160,22 @@ Settings > MCP Servers > Add:
 
 ## Free SEO Tools (No Account Needed)
 
-> **Coming soon** — These tools will work on any URL without signing up. The backend is already live at [robot-speed.com/free-tools](https://www.robot-speed.com/free-tools).
+These tools work on any URL without signing up. No account needed. Try them now via MCP or on the web at [robot-speed.com/free-tools](https://www.robot-speed.com/free-tools).
 
-Robot Speed already powers **90+ free SEO tools** on the web. We're bringing the best ones to MCP:
+Robot Speed powers **90+ free SEO tools**. The best ones are available via MCP:
 
 | Tool | What it does | Status |
 |------|-------------|--------|
-| `seo_audit` | Full 8-category audit: Foundation, Crawl & Index, Content SEO, Metadata, Performance, Media & UX, Architecture, GEO/AEO | Coming soon |
-| `seo_score` | SEO score (0-100) for any URL | Coming soon |
-| `meta_tag_analyzer` | Title, description, OG tags, Twitter cards analysis | Coming soon |
-| `page_speed_check` | Performance audit: blocking scripts, page weight, Core Web Vitals | Coming soon |
-| `broken_link_check` | Find broken links on any page | Coming soon |
-| `ai_visibility_score` | How well AI bots can crawl your site (ChatGPT, Perplexity, Claude) | Coming soon |
-| `readability_check` | Readability score and content quality analysis | Coming soon |
-| `schema_validator` | JSON-LD and schema markup validation | Coming soon |
-| `keyword_generator` | Keyword suggestions for any topic | Coming soon |
-| `content_brief` | AI-generated content brief from a target keyword | Coming soon |
+| `seo_audit` | Full 8-category audit: Foundation, Crawl & Index, Content SEO, Metadata, Performance, Media & UX, Architecture, GEO/AEO | ✅ Live |
+| `seo_score` | SEO score (0-100) for any URL | ✅ Live |
+| `meta_tag_analyzer` | Title, description, OG tags, Twitter cards analysis | ✅ Live |
+| `page_speed_check` | Performance audit: blocking scripts, page weight, Core Web Vitals | ✅ Live |
+| `broken_link_check` | Find broken links on any page | ✅ Live |
+| `ai_visibility_score` | How well AI bots can crawl your site (ChatGPT, Perplexity, Claude) | ✅ Live |
+| `readability_check` | Readability score and content quality analysis | ✅ Live |
+| `schema_validator` | JSON-LD and schema markup validation | ✅ Live |
+| `keyword_generator` | Keyword suggestions for any topic | ✅ Live |
+| `noindex_checker` | Verify a page is indexable (no noindex tag) | ✅ Live |
 
 **Why free?** Because great SEO starts with knowing what's broken. Audit first, then let Robot Speed fix it.
 
@@ -380,7 +380,7 @@ OAuth follows the [MCP Authorization spec](https://modelcontextprotocol.io/speci
 <details>
 <summary><strong>Do I need to pay to use this?</strong></summary>
 
-The MCP server is included in all Robot Speed plans at no extra cost. Free tools (coming soon) work without an account. Pro tools require a subscription starting at $99/month.
+The MCP server is included in all Robot Speed plans at no extra cost. Free tools work without an account. Pro tools require a subscription starting at $99/month.
 
 </details>
 
@@ -434,7 +434,7 @@ Yes. All tool descriptions are bilingual (EN/FR). The AI assistant will respond 
 
 ### Coming Next
 
-- 10 free SEO tools (no account needed) — audit, score, meta tags, speed, broken links
+- ~~10 free SEO tools~~ **Shipped!** 10 free tools live — audit, score, meta tags, speed, broken links, and more
 - Claude Code skill installation (`/robot-speed audit <url>`)
 - Multi-page site crawl audit
 - Drift monitoring (baseline → compare over time)
