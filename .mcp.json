@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "robot-speed": {
+      "type": "http",
+      "url": "https://www.robot-speed.com/api/mcp"
+    }
+  }
+}
