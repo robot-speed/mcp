@@ -1,0 +1,10 @@
+{
+  "name": "robot-speed",
+  "version": "1.0.0",
+  "description": "SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks and content publishing (remote MCP, OAuth).",
+  "mcpServers": {
+    "robot-speed": {
+      "httpUrl": "https://www.robot-speed.com/api/mcp"
+    }
+  }
+}
