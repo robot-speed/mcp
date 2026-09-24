@@ -9,7 +9,7 @@
     <a href="#free-seo-tools-no-account-needed"><img src="https://img.shields.io/badge/free_tools-12-orange" alt="12 Free Tools" /></a>
     <a href="#works-with"><img src="https://img.shields.io/badge/works_with-Claude_%7C_Cursor_%7C_Windsurf_%7C_VS_Code_%7C_ChatGPT-8A2BE2" alt="Cross-platform" /></a>
     <a href="https://discord.gg/X3qTR66sm2"><img src="https://img.shields.io/discord/1234567890?label=Discord&color=5865F2" alt="Discord" /></a>
-    <a href="#license"><img src="https://img.shields.io/badge/license-Proprietary-lightgrey" alt="License" /></a>
+    <a href="#license"><img src="https://img.shields.io/badge/license-MIT-green" alt="License" /></a>
   </p>
 
   <p>
@@ -489,7 +489,9 @@ Robot Speed MCP fonctionne en francais. Toutes les descriptions d'outils sont bi
 
 ## License
 
-This repository contains configuration and documentation for the Robot Speed MCP server. The server is a hosted service at `robot-speed.com/api/mcp`. See [Terms of Service](https://www.robot-speed.com/tos).
+This repository (configuration, documentation, and skills) is licensed under the [MIT License](LICENSE).
+
+The hosted Robot Speed MCP service at `https://www.robot-speed.com/api/mcp` remains subject to the product [Terms of Service](https://www.robot-speed.com/tos).
 
 ---
 
