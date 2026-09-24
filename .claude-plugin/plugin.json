@@ -1,0 +1,10 @@
+{
+  "name": "robot-speed",
+  "description": "SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks and content publishing (remote MCP, OAuth).",
+  "version": "1.0.0",
+  "author": { "name": "Robot Speed", "url": "https://www.robot-speed.com" },
+  "homepage": "https://www.robot-speed.com/mcp",
+  "repository": "https://github.com/robot-speed/mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "seo", "content-marketing", "backlinks"]
+}
