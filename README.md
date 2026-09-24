@@ -5,7 +5,7 @@
 
   <p>
     <a href="https://github.com/robot-speed/mcp/stargazers"><img src="https://img.shields.io/github/stars/robot-speed/mcp?style=flat&color=22c55e" alt="Stars" /></a>
-    <a href="#available-tools-27"><img src="https://img.shields.io/badge/tools-27-blue" alt="27 Tools" /></a>
+    <a href="#available-tools-39-total"><img src="https://img.shields.io/badge/tools-39-blue" alt="39 Tools" /></a>
     <a href="#free-seo-tools-no-account-needed"><img src="https://img.shields.io/badge/free_tools-12-orange" alt="12 Free Tools" /></a>
     <a href="#works-with"><img src="https://img.shields.io/badge/works_with-Claude_%7C_Cursor_%7C_Windsurf_%7C_VS_Code_%7C_ChatGPT-8A2BE2" alt="Cross-platform" /></a>
     <a href="https://discord.gg/X3qTR66sm2"><img src="https://img.shields.io/discord/1234567890?label=Discord&color=5865F2" alt="Discord" /></a>
@@ -26,8 +26,7 @@
 
 ---
 
-**12 free SEO tools. No account needed. Just add the URL to your AI assistant.**
-**27 pro tools for content management, GSC traffic, and white-label reports.**
+**39 tools total: 12 free SEO tools with no account needed, plus 27 pro tools for content management, GSC traffic, and white-label reports.**
 
 > **What's MCP?** Model Context Protocol lets your AI assistant (Claude, Cursor, Copilot) use external tools. Add one URL to your config, and your AI can audit websites, generate keywords, and manage SEO — all through conversation.
 
@@ -60,7 +59,7 @@ Claude: Done. Here's your shareable report:
 - [Quick Start (30 seconds)](#quick-start-30-seconds)
 - [Works With](#works-with)
 - [Free SEO Tools (No Account Needed)](#free-seo-tools-no-account-needed)
-- [Pro Tools (27)](#available-tools-27)
+- [Available Tools (39 total)](#available-tools-39-total)
 - [Workflows](#workflows)
 - [Example Conversations](#example-conversations)
 - [White-Label Reports](#white-label-reports)
@@ -72,19 +71,21 @@ Claude: Done. Here's your shareable report:
 
 ## Quick Start (30 seconds)
 
-Add this to your Claude Desktop config — **no account needed** for free tools:
+For the 12 free tools, add the no-auth endpoint to your Claude Desktop config:
 
 ```json
 {
   "mcpServers": {
     "robot-speed": {
-      "url": "https://www.robot-speed.com/api/mcp"
+      "url": "https://www.robot-speed.com/api/mcp/free"
     }
   }
 }
 ```
 
 That's it. 12 free SEO tools are immediately available. Say *"audit the SEO of https://mysite.com"* and get a full report.
+
+For the full 39-tool set, use `https://www.robot-speed.com/api/mcp` with OAuth 2.1; the endpoint will prompt you to sign in.
 
 **Want pro features?** (content management, GSC traffic, AI bot tracking, client reports) Create an account at [robot-speed.com](https://www.robot-speed.com) and add your API key:
 
@@ -164,7 +165,7 @@ Settings > MCP Servers > Add:
 
 ## Free SEO Tools (No Account Needed)
 
-These tools work on any URL without signing up. No account needed. Try them now via MCP or on the web at [robot-speed.com/free-tools](https://www.robot-speed.com/free-tools).
+These tools work on any URL without signing up. No account needed. Try them now via the no-auth MCP endpoint `https://www.robot-speed.com/api/mcp/free` or on the web at [robot-speed.com/free-tools](https://www.robot-speed.com/free-tools).
 
 Robot Speed powers **90+ free SEO tools**. The best ones are available via MCP:
 
@@ -186,9 +187,9 @@ Robot Speed powers **90+ free SEO tools**. The best ones are available via MCP:
 
 ---
 
-## Available Tools (27)
+## Available Tools (39 total)
 
-These require a Robot Speed account and a connected site.
+The authenticated endpoint exposes the full 39-tool set: 12 free tools plus 27 account tools. The account tools below require a Robot Speed account and a connected site.
 
 ### Discovery
 

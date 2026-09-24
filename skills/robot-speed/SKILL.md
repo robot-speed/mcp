@@ -34,8 +34,8 @@ Free tools work on any URL without authentication. Pro tools require a Robot Spe
 
 ## How it works
 
-This skill uses the Robot Speed MCP server at `https://www.robot-speed.com/api/mcp`.
-All SEO analysis runs server-side. No API keys needed for free tools.
+This skill uses the Robot Speed free MCP endpoint at `https://www.robot-speed.com/api/mcp/free` for no-auth SEO analysis.
+The full MCP endpoint at `https://www.robot-speed.com/api/mcp` requires OAuth 2.1 or an API key.
 
 ## Setup for Pro tools
 
@@ -70,5 +70,5 @@ When the user runs a /robot-speed command:
 
 5. For `publish`: Call `publish_to_cms` tool for each approved article.
 
-The MCP server URL is: https://www.robot-speed.com/api/mcp
-Free tools do not require authentication headers.
+The free MCP server URL is: https://www.robot-speed.com/api/mcp/free
+The full MCP server URL is: https://www.robot-speed.com/api/mcp
